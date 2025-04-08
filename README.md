@@ -5,6 +5,7 @@ MoveIt tutorial for manipulation with generic robots.
 
 
 # Resources
+- How to Use MoveIt with Isaac Sim: A Step-by-Step Guide [[video]](https://www.youtube.com/watch?v=pGje2slp6-s) 
 - ROS2 humble tutorial, using ROS2 with your custom Robot [[video]](https://www.youtube.com/watch?v=EosEikbZhiM)
 - How to Control ANY Robot in ROS2 with MoveIt2 & Gazebo [[video]](https://www.youtube.com/watch?v=45PGFt9C-B8)
 - Simulation took Control of my Robot Arm (NVIDIA Isaac Sim) [[video]](https://www.youtube.com/watch?v=Eb2zuQxOBlY)
