@@ -15,10 +15,22 @@ Clone this repo:
 ```
 git clone https://github.com/ArghyaChatterjee/MoveIt-Tutorial.git
 ```
-Navigate to the repo and build the workspace.
+Navigate to the repo directory and build the workspace.
 ```
 cd MoveIt-Tutorial/moveit2_UR5
+colcon build
 ```
+Install the necessary binary files for the MoveIt package:
+```bash
+sudo apt install ros-humble-ros2-control ros-humble-ros2-controllers ros-humble-gripper-controllers ros-humble-moveit
+```
+Launch MoveIt Setup Assistant:
+```bash
+source install/setup.bash
+ros2 launch moveit_setup_assistant setup_assistant.launch.py
+```
+Launch UR5 Model inside Isaac Sim:
+
 # Resources
 - How to Use MoveIt with Isaac Sim: A Step-by-Step Guide [[video]](https://www.youtube.com/watch?v=pGje2slp6-s) 
 - ROS2 humble tutorial, using ROS2 with your custom Robot [[video]](https://www.youtube.com/watch?v=EosEikbZhiM)
