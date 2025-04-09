@@ -13,7 +13,7 @@ sudo apt install ros2-humble-desktop
 ```
 Clone this repo:
 ```
-git clone 
+git clone https://github.com/ArghyaChatterjee/MoveIt-Tutorial.git
 ```
 Navigate to the repo and build the workspace.
 ```
