@@ -3,7 +3,22 @@ MoveIt tutorial for manipulation with generic robots.
 
 - MoveIt Setup Assistant Tutorial [[website]](https://docs.ros.org/en/kinetic/api/moveit_tutorials/html/doc/setup_assistant/setup_assistant_tutorial.html)
 
+# Requirements
+MoveIt2 was tested on Ubuntu 22.04, Nvidia Driver 535, Cuda 12.4, Python 3.10, Isaac Sim 4.5 and ROS2 Humble.
 
+# Installation
+First, install ROS2 Humble desktop version.
+```bash
+sudo apt install ros2-humble-desktop
+```
+Clone this repo:
+```
+git clone 
+```
+Navigate to the repo and build the workspace.
+```
+cd MoveIt-Tutorial/moveit2_UR5
+```
 # Resources
 - How to Use MoveIt with Isaac Sim: A Step-by-Step Guide [[video]](https://www.youtube.com/watch?v=pGje2slp6-s) 
 - ROS2 humble tutorial, using ROS2 with your custom Robot [[video]](https://www.youtube.com/watch?v=EosEikbZhiM)
