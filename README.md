@@ -19,6 +19,7 @@ Navigate to the repo directory and build the workspace.
 ```
 cd MoveIt-Tutorial/moveit2_UR5
 colcon build
+source install/setup.bash
 ```
 Install the necessary binary files for the MoveIt package:
 ```bash
@@ -29,6 +30,12 @@ Launch MoveIt Setup Assistant:
 source install/setup.bash
 ros2 launch moveit_setup_assistant setup_assistant.launch.py
 ```
+For first time MoveIt launch:
+
+- Select `Create New MoveIt Configuration Package`. 
+- Click Browse and load the robot `xacro` file.
+- File location --> moveit2_UR5 --> src --> robot_description --> urdf --> ur5_robotiq85_gripper.xacro
+
 Launch UR5 Model inside Isaac Sim:
 
 # Resources
